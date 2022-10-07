@@ -1,0 +1,35 @@
+body {
+    font-family: "맑은 고딕", "Nanum Gothic", sans-serif;
+}
+
+.parent {
+    font-size: 16px;
+    color: royalblue;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.child {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgba(0,0,255, .1);
+    background-image: url("/images/beach.jpg");
+}
+
+.child:hover {
+    color: rgba(0, 0, 255, 1);
+}
+
+.child-to-child {
+    font-size: 1.2em;
+    color: #232323;
+}
+
+/* 영문 텍스트를 작은 대문자로 변경 */
+.variant {
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+}

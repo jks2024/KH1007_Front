@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    row-gap: 10px;
+    column-gap: 2px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.grid-item {
+    color: white;
+    background-color: royalblue;
+}
+.grid-item:nth-child(2n) {
+    background-color: orangered;
+}

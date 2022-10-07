@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="start">start</button>
+        <button id="paused">paused</button>
+        <script>
+            const box = document.querySelector("div");
+            document.getElementById("start").addEventListener("click", function() {
+                box.style.animationPlayState = "running";
+            });
+            document.getElementById("paused").addEventListener("click", function(){
+                box.style.animationPlayState = "paused";
+            });
+        </script>
+    </div>
+ 
+</body>
+</html>
